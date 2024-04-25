@@ -1,0 +1,289 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="guns/style_guns.css">
+    <title>Макеты</title>
+
+</head>
+
+
+<body>
+    <div class="wrapper"><br>
+
+        <div id="menu">
+            <img id="logo" src="main/logo_LG.png">
+            <a href="persones.html">Персонажи</a>
+            <a href="main.html">Основная информация</a>
+            <a href="guns.html" class="active">Оружие</a>
+        </div>
+
+        <video autoplay loop muted class="bgvideo" id="bgvideo">
+            <source src="main/background_v4.mp4" type="video/mp4"></source>
+        </video>
+
+        <div id="content">
+
+            <div class="container">
+
+                <div class="card">
+                    <div class="textCard">
+                        <h2>ВСВ</h2>
+                        <div class="shortDescription">
+                            <p>
+                            Мощный и бесшумный автомат с быстрой перезарядкой. Является лучшим автоматом в «Metro: Last Light» и «Redux», борясь за первенство с Калашом 2012, уступая ему в скорострельности и размере магазина, но превосходя в убойности и точности. Изготавливался до Мирового ядерного конфликта. Встречается нечасто, используется в основном спецподразделениями всех фракций.</p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Автомат</li>
+                            <li><strong>Урон:</strong> Средний</li>
+                            <li><strong>Магазин:</strong> 20 патронов</li>
+                            <li><strong>Режим огня:</strong> Автоматический</li>
+                            <li><strong>Боеприпасы:</strong> 5.45x39 мм ПП</li>
+                            <li><strong>Средняя стоимость:</strong> 150 патронов</li>
+                            <li><strong>Прототип:</strong> ВСК-94</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="ВСВ" src="guns/pix/gun/1.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Тихарь</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Тихарь, созданный из-за постоянной нехватки боеприпасов, стал незаменимым оружием и для рейнджеров ордена "Спарта". Он не только стреляет вездесущими шариками от подшипников, но ещё и почти бесшумен. В конструкции задействована пневматическая система высокого давления, позволяющая в случае необходимости вести огонь и зажигательными пулями. Не забывайте следить за давлением воздуха в резервуаре.
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Пневматическое оружие</li>
+                            <li><strong>Урон:</strong> В зависимости от уровня давления в баллоне</li>
+                            <li><strong>Магазин:</strong> 15 патронов</li>
+                            <li><strong>Режим огня:</strong> Полуавтоматический</li>
+                            <li><strong>Боеприпасы:</strong> 15 мм</li>
+                            <li><strong>Средняя стоимость:</strong> 85 патронов</li>
+                            <li><strong>Прототип:</strong> В 17-18 веках было создано подобное оружие</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Тихарь" src="guns/pix/gun/2.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Хельсинг</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Изготовлено в кустарных условиях, использует уникальный боеприпас. Спорное оружие, которое эффективно в скрытных операциях благодаря гигантской пробивной силе и бесшумности. Однако в открытом бою оно неэффективно из-за небольшого количества болтов в магазине и необходимости постоянной подкачки воздуха. Боеприпасы к нему встречаются крайне редко, что частично решается возможностью повторного использования.</p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Пневматическое оружие</li>
+                            <li><strong>Урон:</strong> В зависимости от уровня давления в баллоне</li>
+                            <li><strong>Магазин:</strong> 8 стрел</li>
+                            <li><strong>Режим огня:</strong> Полуавтоматический</li>
+                            <li><strong>Боеприпасы:</strong> Стрелы</li>
+                            <li><strong>Средняя стоимость:</strong> 165 патронов</li>
+                            <li><strong>Прототип:</strong> Идея из фильма «Ван Хельсинг» Стивена Соммерса</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Хельсинг" src="guns/pix/gun/3.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Рельса</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Работает по принципу «рельсотрона» (электромагнитного ускорителя снаряда). Стреляет стальными 15-миллиметровыми шариками, разгоняемыми при помощи электромагнитного поля до очень высоких скоростей, чем обеспечивается высокая точность и убойная сила выстрела. Энергия для выстрела запасается в конденсаторе. Восстановление заряда конденсатора аналогично зарядке фонарика или подкачке пневматического ружья - накачивать заряд. Имеет электризованный удар ближнего боя, который также расходует заряд.</p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Электромагнитный ускоритель масс</li>
+                            <li><strong>Урон:</strong> Огромный</li>
+                            <li><strong>Магазин:</strong> 15 патронов</li>
+                            <li><strong>Режим огня:</strong> Полуавтоматический</li>
+                            <li><strong>Боеприпасы:</strong> 15 мм</li>
+                            <li><strong>Средняя стоимость:</strong> 210 патронов</li>
+                            <li><strong>Прототип:</strong> Рельсотрон</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Рельса" src="guns/pix/gun/4.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Ашот</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Ашот - пистолет с высокой убойной силой, но требующий точной стрельбы. Хорош для боя с живучими мутантами в заброшенных туннелях. Приоритетный обвес - удлиненный ствол для уменьшения разлета дроби. Быстрое перемещение и стрельба из-за укрытия важны. Лучше использовать как вспомогательное оружие, если другие слоты заняты или нет денег. Этот пистолет действует по принципу "Один выстрел — один труп".
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Дробовик</li>
+                            <li><strong>Урон:</strong> Большой</li>
+                            <li><strong>Магазин:</strong> 1 патрон</li>
+                            <li><strong>Режим огня:</strong> Одинарный</li>
+                            <li><strong>Боеприпасы:</strong> 12х70 мм (принимает и зажигательные)</li>
+                            <li><strong>Средняя стоимость:</strong> 35 патронов</li>
+                            <li><strong>Прототип:</strong> Неизвестно</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Ашот" src="guns/pix/gun/5.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Калаш 2012</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Самый мощный и удобный автомат в игре, уступающий лишь ВСВ. Имеет магазин на 40 патронов и быструю перезарядку. Изготавливался до Третьей Мировой войны. Достоинства: большой магазин; быстрая перезарядка; приличная мощность; малая отдача; высокая скорострельность. Недостатки: редкость; малый урон за выстрел; большой расход боеприпасов.
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Автомат</li>
+                            <li><strong>Урон:</strong> Малый</li>
+                            <li><strong>Магазин:</strong> 40 патронов</li>
+                            <li><strong>Режим огня:</strong> Автоматический</li>
+                            <li><strong>Боеприпасы:</strong> 5.45x39 мм ПП</li>
+                            <li><strong>Средняя стоимость:</strong> 115 патронов</li>
+                            <li><strong>Прототип:</strong>  Можно принять за гибрид FN P90 и АК-74</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Калаш 2012" src="guns/pix/gun/6.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Абзац</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Ручной мощнейший автоматический дробовик, требующий длительной перезарядки на 20 (40) патронов, но имеющий высочайший темп стрельбы. Собран из деталей пулемёта ДШК. Имеет самый большой размер магазина среди остальных дробовиков в игре, Отличная скорострельность для дробовика. Долгая перезарядка, сильная отдача (частично понижается установкой дульного тормоза-компенсатора, а также молниеносная трата патронов.
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Дробовик</li>
+                            <li><strong>Урон:</strong> Большой</li>
+                            <li><strong>Магазин:</strong> 20 патронов</li>
+                            <li><strong>Режим огня:</strong> Полуавтоматический</li>
+                            <li><strong>Боеприпасы:</strong> 12х70 мм (принимает и зажигательные)</li>
+                            <li><strong>Средняя стоимость:</strong> 200 патронов</li>
+                            <li><strong>Прототип:</strong> Версия пулемёта ДШК</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Абзац" src="guns/pix/gun/7.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="textCard">
+                        <h2>Вентиль</h2>
+                        <div class="shortDescription">
+                            <p>
+                                Точности самодельному «Вентилю» вполне хватает, да и мощи старого винтовочного патрона вполне достаточно, чтобы справиться с большинством импровизированных бронежилетов. Вентиль работает по принципу «один выстрел — один труп». Одним из его главных минусов считается ручная перезарядка. Хоть перезаряжается и быстрее Преведа, но делает это не сразу — необходимо нажать на кнопку R, поэтому за количеством патронов в Вентиле стоит следить. Единственное многозарядное оружие, которое можно перезарядить, не убирая прицел.
+                            </p>
+                        </div>
+                        <div class="feature">
+                            <ul>
+                            <li><strong>Класс:</strong> Дробовик</li>
+                            <li><strong>Урон:</strong> Большой</li>
+                            <li><strong>Магазин:</strong> 20 патронов</li>
+                            <li><strong>Режим огня:</strong> Полуавтоматический</li>
+                            <li><strong>Боеприпасы:</strong> 12х70 мм (принимает и зажигательные)</li>
+                            <li><strong>Средняя стоимость:</strong> 200 патронов</li>
+                            <li><strong>Прототип:</strong> Версия пулемёта ДШК</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="imgCard">
+                        <img class="img_gun" title="Вентиль" src="guns/pix/gun/8.jpg" onclick="displayModal(this);">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="modal" class="modal" onclick="hideModal();">
+            <span class="close">&times;</span>
+            <div class="modal-content">
+                <h1 id="modal-title"></h1>
+                <img id="modal-image">
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Модальное окно
+        const modal = document.getElementById("modal");
+        const modalImage = document.getElementById("modal-image");
+        const modalTitle = document.getElementById("modal-title");
+
+        function displayModal(img)
+        {
+            modalTitle.textContent = img.title;
+            modal.style.display = "block";
+            modalImage.src = img.src;
+            modalImage.style.width = "60%";
+            modalImage.style.height = "auto";
+        }
+        function hideModal()
+        {  
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Появление из невидимости при появлении на экране
+        function onEntry(entry) {
+            entry.forEach(change => {
+                if (change.isIntersecting) {
+                    change.target.classList.add('cardShow');
+                 } 
+                //  else {
+                //     change.target.classList.remove('cardShow');
+                // }
+            });
+        }
+        let options = { threshold: [0.5] };
+        let observer = new IntersectionObserver(onEntry, options);
+        let elements = document.querySelectorAll('.card');
+
+        for (let elm of elements) {
+            observer.observe(elm);
+        }
+
+        // Плавное появление страницы
+        document.addEventListener("DOMContentLoaded", function() {
+        var object = document.querySelector("#content");
+        object.style.opacity = 1;
+        });
+    </script>
+
+</body>
+
+</html>
